@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  #piano-visual {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .key {
+    width: 40px;
+    height: 200px;
+    margin: 2px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  .key.black {
+    width: 30px;
+    height: 120px;
+    background-color: black;
+    margin-left: -15px;
+    z-index: 1;
+  }
+  
